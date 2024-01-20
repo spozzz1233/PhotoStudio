@@ -1,0 +1,18 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FEC001</item>
+        <item name="colorPrimaryDark">#FEC001</item>
+        <item name="colorAccent">#FEC001</item>
+        <!-- Add more style attributes as needed -->
+    </style>
+
+    <!-- Add additional styles if needed -->
+    <style name="YourCustomStyle">
+        <!-- Define your custom style attributes here -->
+    </style>
+
+</resources>

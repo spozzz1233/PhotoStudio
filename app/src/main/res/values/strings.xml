@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">alena 6</string>
+    <string name="magazine">магазин</string>
+    <string name="basket">корзина</string>
+    <string name="orders">заказы</string>
+    <string name="profile">профиль</string>
+    <string name="placeholder_basket">Товаров в корзине нет\nПерейдите в магазин, чтобы добавить\nновые товары</string>
+    <string name="Basket_placeholder_text">Перейти к покупкам</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/magazineFragment"
+        android:icon="@drawable/home"
+        android:title="@string/magazine" />
+
+    <item
+        android:id="@+id/basketFragment"
+        android:icon="@drawable/basket"
+        android:title="@string/basket" />
+
+    <item
+        android:id="@+id/ordersFragment"
+        android:icon="@drawable/orders"
+        android:title="@string/orders" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+</menu>

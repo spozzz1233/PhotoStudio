@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/magazineFragment">
+
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.alena6.basket.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" >
+        <action
+            android:id="@+id/action_basketFragment_to_magazineFragment"
+            app:destination="@id/magazineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.alena6.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.example.alena6.orders.OrdersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" >
+        <action
+            android:id="@+id/action_ordersFragment_to_magazineFragment"
+            app:destination="@id/magazineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/magazineFragment"
+        android:name="com.example.alena6.magazine.ui.fragment.magazineFragment"
+        android:label="fragment_magazine"
+        tools:layout="@layout/fragment_magazine" />
+</navigation>
